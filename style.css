@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=PT+Sans&display=swap');
+
+html {}
+body {
+    background: #161616;
+    font-family: ;
+    font-family: ;
+    color: #F3F2F4;   
+}
+h1, h2, h3 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #F3F2F4;   
+}
+h1 {
+    font-size: 42px;
+    line-height: 44px;
+}
+h2 {
+    font-size: 38px;
+    line-height: 150%;
+}
+h3 {
+    font-size: 30px;
+    line-height: 150%;
+}
+.content {
+    margin: 0 90px;
+}
+
+.colorset {
+    display: flex;
+}
+
+.colorbg {
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    border: 1px solid #E9E9E9;
+    background: #161616;
+    float: left;
+    margin: 10px 20px;
+}
+
+.colorlight {
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    background: #FFF;
+    float: left;
+    margin: 8px 8px;
+    }
+.color-primary {
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    background: #E7FE55;
+    float: left;
+    margin: 8px 8px;
+    }
+.colorbglight {
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    background: #E9E9E9;
+    float: left;
+    margin: 8px 8px;
+    }
+.colorbgwhite {
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    background: #F3F2F4;
+    float: left;
+    margin: 8px 8px;
+    }
+.colorbgconteiner {
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    background: #818181;
+    float: left;
+    margin: 8px 8px;
+    }
+.colorbgelement{
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    background: #4A4848;
+    float: left;
+    margin: 8px 8px;
+    }
+.buttonset {
+
+}
+.button-scan {
+    width: 128px;
+    height: 128px;
+    background-image: url(img/button-scan.png);
+    display: flex;
+    flex-shrink: 0;
+}
+.nav-tabs {
+
+}
+button {
+    border: none;
+    margin: 20px;
+}
+.btn-primary {
+    display: block;
+    padding: 20px 30px;
+    border-radius: 20px;
+    background: #E7FE55;
+    display: inline-flex;
+    padding: 20pxpx 30px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.btn-primary:hover {
+    background: #161616;
+    border: 1px solid #E7FE55;
+    color: #F3F2F4;
+}
+.filter-option {}
+.filter-grid {}
+.link-nav {}
+.icons {}
+.control-close {}
+.arrow {}
+.share {}
+.fui-heart {}
+.fui-check {}
+.fui-check-circle {}
+.edit {}
+.container {}
+.container-fluid {}
+.container-fluid-group {}
+.search-result {}
+.search {}
+.search-input {}

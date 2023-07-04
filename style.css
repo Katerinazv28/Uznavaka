@@ -1,12 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=PT+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=PT+Sans&display=swap');
 html {}
 body {
     background: #161616;
     font-family: ;
     font-family: ;
     color: #F3F2F4;   
+    padding: 40px;
 }
+* {
+    box-sizing: border-box;
+    font-size: 16px!important;
+    font-family: 'PT Sans', serif!important;
+  }
+  
+p {
+    margin-bottom: 1em;
+  }
+
 h1, h2, h3 {
     font-family: 'Cormorant Garamond', serif;
     color: #F3F2F4;   
@@ -90,21 +101,42 @@ h3 {
     margin: 8px 8px;
     }
 .buttonset {
-
+    display: flex;
 }
 .button-scan {
-    width: 128px;
-    height: 128px;
-    background-image: url(img/button-scan.png);
-    display: flex;
-    flex-shrink: 0;
+
 }
 .nav-tabs {
-
+    width: 360px;
+    height: 74px;
+    padding: 12px 74px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 40px;
+    border: 1px solid #000;
+    background: #4A4848;
+}
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 47px;
+    flex: 1 0 0;
+    float: left;
+    padding: 0 16px;
+}
+.nav-item:hover {
+    border-radius: 40px;
+    background: #1F1D1D;
+    width: 66px;
+    height: 48px;
+    flex-shrink: 0;
 }
 button {
     border: none;
     margin: 20px;
+    cursor: pointer;
 }
 .btn-primary {
     display: block;
@@ -115,6 +147,7 @@ button {
     padding: 20pxpx 30px;
     align-items: flex-start;
     gap: 10px;
+    cursor: pointer;
 }
 .btn-primary:hover {
     background: #161616;
@@ -124,8 +157,23 @@ button {
 .filter-option {}
 .filter-grid {}
 .link-nav {}
-.icons {}
-.control-close {}
+.icons {
+    display: flex;
+    width: 100%;
+    padding: 16px 40px;
+    justify-content: left;
+    align-items: left;
+    align-content: flex-start;
+    gap: 60px 34px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+.control-close {
+    width: 21px;
+    height: 21px;
+    display: block;
+}
 .arrow {}
 .share {}
 .fui-heart {}

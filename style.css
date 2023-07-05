@@ -18,7 +18,9 @@ p {
 
 h1, h2, h3 {
     font-family: 'Cormorant Garamond', serif;
-    color: #F3F2F4;   
+    color: #F3F2F4; 
+    margin-bottom: 1em; 
+    margin-top: 1em;
 }
 h1 {
     font-size: 42px;
@@ -246,3 +248,26 @@ nav {
     z-index: 125;
   }
   
+
+#search_dark {
+
+}
+
+#search_dark input[type="text"] {
+    background: url(img/magnifyingglass.png) no-repeat 16px #4F4C4E;
+    border: 0 none;
+    font: 18px Arial,Helvetica,Sans-serif;
+    color: #EBEBF5;
+    width:358px;
+    padding: 16px 16px 16px 40px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-transition: all 0.7s ease 0s;
+    -moz-transition: all 0.7s ease 0s;
+    -o-transition: all 0.7s ease 0s;
+    transition: all 0.7s ease 0s;
+    }
+#search_dark input[type="text"]:focus {
+    border: 0 none;
+    }

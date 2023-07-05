@@ -110,17 +110,15 @@ h3 {
 
 button {
     border: none;
-    margin: 20px;
+    margin: 20px 20px 20px 0;
     cursor: pointer;
     font-size: 18px;
 }
 .btn-primary {
-    display: block;
     padding: 20px 30px;
     border-radius: 20px;
     background: #E7FE55;
     display: inline-flex;
-    padding: 20pxpx 30px;
     align-items: flex-start;
     gap: 10px;
     cursor: pointer;
@@ -140,7 +138,7 @@ button {
 .icons {
     display: flex;
     width: 100%;
-    padding: 16px 40px;
+    padding: 16px 40px 16px 0;
     justify-content: left;
     align-items: left;
     align-content: flex-start;

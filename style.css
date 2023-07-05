@@ -1,271 +1,414 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=PT+Sans&display=swap');
-html {}
-body {
-    background: #161616;
-    font-family: ;
-    font-family: ;
-    color: #F3F2F4;   
-    padding: 40px;
-}
-* {
-    box-sizing: border-box;
-    font-family: 'Cormorant Garamond', serif;
-  }
-  
-p {
-    margin-bottom: 1em;
-  }
 
-h1, h2, h3 {
-    font-family: 'Cormorant Garamond', serif;
-    color: #F3F2F4; 
-    margin-bottom: 1em; 
-    margin-top: 1em;
+@font-face {
+  font-family: 'proxima_nova_rgregular';
+  src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot');
+  src: url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.woff') format('woff'),
+    url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.ttf') format('truetype'),
+    url('https://litmus.com/fonts/Emails/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
+@font-face {
+  font-family: 'proxima_nova_rgbold';
+  src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot');
+  src: url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.woff') format('woff'),
+    url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.ttf') format('truetype'),
+    url('https://litmus.com/fonts/Emails/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'adelle_rgregular';
+  src: url('https://litmus.com/fonts/Emails/adelle_reg-webfont.eot');
+  src: url('https://litmus.com/fonts/Emails/adelle_reg-webfont.eot?#iefix') format('embedded-opentype'),
+    url('https://litmus.com/fonts/Emails/adelle_reg-webfont.woff') format('woff'),
+    url('https://litmus.com/fonts/Emails/adelle_reg-webfont.ttf') format('truetype'),
+    url('https://litmus.com/fonts/Emails/adelle_reg-webfont.svg#adelle_rgregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
 h1 {
-    font-size: 42px;
-    line-height: 44px;
+  font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
 }
-h2 {
-    font-size: 38px;
-    line-height: 150%;
+
+html {
+  height: 100%;
 }
+
+body {
+  background: #161616;
+  color: #F3F2F4;
+  padding: 0;
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: lighter;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+p {
+  margin-bottom: 1em;
+  font-family: 'Proxima Nova', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
 h3 {
-    font-size: 30px;
-    line-height: 150%;
+  font-family: 'Cormorant Garamond', serif;
+  color: #F3F2F4;
+  margin-bottom: 1em;
 }
+
+h1 {
+  font-size: 42px;
+  line-height: 44px;
+  background-color: #E7FE55;
+  color: #161616;
+  display: block;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 150%;
+  margin-top: 1em;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 150%;
+  margin-top: 1em;
+}
+
 .content {
-    margin: 0 90px;
+  margin: 0 90px;
 }
 
 .colorset {
-    display: inline-block;
+  display: inline-block;
 }
 
 .colorbg {
-    width: 44px;
-    height: 44px;
-    border-radius: 8px;
-    border: 1px solid #E9E9E9;
-    background: #161616;
-    float: left;
-    margin: 8px;
+  width: 74px;
+  height: 74px;
+  border-radius: 8px;
+  border: 1px solid #E9E9E9;
+  background: #161616;
+  float: left;
+  margin: 8px;
 }
 
 .colorlight {
-    width: 44px;
-    height: 44px;
-    border-radius: 8px;
-    background: #FFF;
-    float: left;
-    margin: 8px 8px;
-    }
-.color-primary {
-    width: 44px;
-    height: 44px;
-    border-radius: 8px;
-    background: #E7FE55;
-    float: left;
-    margin: 8px 8px;
-    }
-.colorbglight {
-    width: 44px;
-    height: 44px;
-    border-radius: 8px;
-    background: #E9E9E9;
-    float: left;
-    margin: 8px 8px;
-    }
-.colorbgwhite {
-    width: 44px;
-    height: 44px;
-    border-radius: 8px;
-    background: #F3F2F4;
-    float: left;
-    margin: 8px 8px;
-    }
-.colorbgconteiner {
-    width: 44px;
-    height: 44px;
-    border-radius: 8px;
-    background: #818181;
-    float: left;
-    margin: 8px 8px;
-    }
-.colorbgelement{
-    width: 44px;
-    height: 44px;
-    border-radius: 8px;
-    background: #4A4848;
-    float: left;
-    margin: 8px 8px;
-    }
-.buttonset {
-    display: inline-block;
+  width: 74px;
+  height: 74px;
+  border-radius: 8px;
+  background: #FFF;
+  float: left;
+  margin: 8px 8px;
 }
 
-.nav-tabs {
+.color-primary {
+  width: 74px;
+  height: 74px;
+  border-radius: 8px;
+  background: #E7FE55;
+  float: left;
+  margin: 8px 8px;
+}
 
+.colorbglight {
+  width: 74px;
+  height: 74px;
+  border-radius: 8px;
+  background: #E9E9E9;
+  float: left;
+  margin: 8px 8px;
+}
+
+.colorbgwhite {
+  width: 74px;
+  height: 74px;
+  border-radius: 8px;
+  background: #F3F2F4;
+  float: left;
+  margin: 8px 8px;
+}
+
+.colorbgconteiner {
+  width: 74px;
+  height: 74px;
+  border-radius: 8px;
+  background: #818181;
+  float: left;
+  margin: 8px 8px;
+}
+
+.colorbgelement {
+  width: 74px;
+  height: 74px;
+  border-radius: 8px;
+  background: #4A4848;
+  float: left;
+  margin: 8px 8px;
+}
+
+.buttonset {
+  display: inline-block;
 }
 
 button {
-    border: none;
-    margin: 20px 20px 20px 0;
-    cursor: pointer;
-    font-size: 18px;
+  border: none;
+  cursor: pointer;
 }
+
 .btn-primary {
-    padding: 20px 30px;
-    border-radius: 20px;
-    background: #E7FE55;
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 10px;
-    cursor: pointer;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background: #E7FE55;
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+  border: 1px solid #E7FE55;
+  margin: 20px 20px 20px 0;
+  font-size: 18px;
 }
+
 .btn-primary:hover {
-    background: #161616;
-    border: 1px solid #E7FE55;
-    color: #F3F2F4;
+  background: #161616;
+  border: 1px solid #E7FE55;
+  color: #F3F2F4;
 }
+
 .button-scan {
-    margin: 16px 16px 16px 0;
-    padding: 16px 16px 16px 0;
+  margin: 16px 16px 16px 0;
+  padding: 16px 16px 16px 0;
 }
+
+.button-scan a:hover {
+  opacity: 0.8;
+}
+
 .filter-option {}
+
 .filter-grid {}
+
 .link-nav {}
+
 .icons {
-    display: flex;
-    width: 100%;
-    padding: 16px 40px 16px 0;
-    justify-content: left;
-    align-items: left;
-    align-content: flex-start;
-    gap: 60px 34px;
-    flex-shrink: 0;
-    flex-wrap: wrap;
-    border-radius: 20px;
+  display: flex;
+  width: 100%;
+  padding: 16px 40px 16px 0;
+  justify-content: left;
+  align-items: left;
+  align-content: flex-start;
+  gap: 60px 34px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  border-radius: 20px;
 }
+
 .control-close {
-    width: 21px;
-    height: 21px;
-    display: block;
+  width: 21px;
+  height: 21px;
+  display: block;
 }
-.arrow {}
-.share {}
-.fui-heart {}
-.fui-check {}
-.fui-check-circle {}
-.edit {}
-.container {}
-.container-fluid {}
-.container-fluid-group {}
-.search-result {}
-.search {}
-.search-input {}
+
+.container-fluid {
+  background-color: #1C1C1E;
+  border-radius: 10px;
+  width: 358px;
+  height: 358px;
+}
+
+.container-fluid span {
+  font-size: 16px;
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: 100;
+}
 
 nav {
-    position: relative;
-    display: block;
-    background-color: #4A4848;
-    padding: 10px;
-    border-radius: 40px;
-    overflow: hidden;
-  }
-  
-  nav a {
-    position: relative;
-    line-height: 1;
-    text-align: center;
-    display: inline-block;
-    width: 100px;
-    padding: 10px;
-    box-sizing: border-box;
-    z-index: 2;
-  }
-  
-  nav a b {
-    position: relative;
-    top: 40px;
-    transition: 0.3s ease top;
-  }
-  
-  nav a i {
-    position: relative;
-    left: 25%;
-    transition: 0.3s ease left;
-  }
-  
-  nav span {
-    position: absolute;
-    width: 100px;
-    background-color: #000;
-    top: 10px;
-    bottom: 10px;
-    left: 10px;
-    border-radius: 50px;
-    z-index: 1;
-    transition: 0.3s ease left;
-  }
-  
-  nav a:hover b {
-    top: 0;
-  }
-  
-  nav a:hover i {
-    left: 0;
-  }
-  
-  nav a:nth-child(1):hover ~ span {
-    left: 10px;
-  }
-  
-  nav a:nth-child(2):hover ~ span {
-    left: 114px;
-  }
-  
-  nav a:nth-child(3):hover ~ span {
-    left: 218px;
-  }
-  
-  #ytd-url {
-    display: block;
-
-    right: 0;
-    bottom: 0;
-    padding: 10px 14px;
-    margin: 20px;
-    color: #fff;
-    font-family: Arial;
-    font-size: 14px;
-    text-decoration: none;
-    background-color: #000;
-    border-radius: 4px;
-    box-shadow: 0 10px 20px -5px rgba(83, 88, 139, 0.3);
-    z-index: 125;
-  }
-  
-
-#search_dark {
-
+  position: relative;
+  display: block;
+  background-color: #4A4848;
+  padding: 10px;
+  border-radius: 40px;
+  overflow: hidden;
 }
 
+nav a {
+  position: relative;
+  line-height: 1;
+  text-align: center;
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+nav a b {
+  position: relative;
+  top: 40px;
+  transition: 0.3s ease top;
+}
+
+nav a i {
+  position: relative;
+  left: 25%;
+  transition: 0.3s ease left;
+}
+
+nav span {
+  position: absolute;
+  width: 100px;
+  background-color: #000;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  border-radius: 50px;
+  z-index: 1;
+  transition: 0.3s ease left;
+}
+
+nav a:hover b {
+  top: 0;
+}
+
+nav a:hover i {
+  left: 0;
+}
+
+nav a:nth-child(1):hover~span {
+  left: 10px;
+}
+
+nav a:nth-child(2):hover~span {
+  left: 114px;
+}
+
+nav a:nth-child(3):hover~span {
+  left: 218px;
+}
+
+#ytd-url {
+  display: block;
+
+  right: 0;
+  bottom: 0;
+  padding: 10px 14px;
+  margin: 20px;
+  color: #fff;
+  font-family: Arial;
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px -5px rgba(83, 88, 139, 0.3);
+  z-index: 125;
+}
+
+
+#search_dark {}
+
 #search_dark input[type="text"] {
-    background: url(img/magnifyingglass.png) no-repeat 16px #4F4C4E;
-    border: 0 none;
-    font: 18px Arial,Helvetica,Sans-serif;
-    color: #EBEBF5;
-    width:358px;
-    padding: 16px 16px 16px 40px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    -webkit-transition: all 0.7s ease 0s;
-    -moz-transition: all 0.7s ease 0s;
-    -o-transition: all 0.7s ease 0s;
-    transition: all 0.7s ease 0s;
-    }
+  background: url(img/magnifyingglass.png) no-repeat 16px #4F4C4E;
+  border: 0 none;
+  font: 18px Arial, Helvetica, Sans-serif;
+  color: #EBEBF5;
+  width: 358px;
+  padding: 16px 16px 16px 40px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
+}
+
 #search_dark input[type="text"]:focus {
-    border: 0 none;
-    }
+  border: 0 none;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.icon-group {
+  display: block;
+  margin: 8px 0 8px 8px;
+  width: 124px;
+  float: right;
+}
+
+.text-conteiner {
+  padding: 8px 16px 8px 8px;
+  font-size: 16px;
+}
+
+.bglight {
+  border: solid 1px #E9E9E9;
+  border-radius: 20px;
+}
+
+.conteiner-result {
+  display: flex;
+  background-color: #161616;
+  width: 389px;
+  height: 118px;
+  border-bottom: solid 1px #4A4848;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.conteiner-result h3 {
+  margin: 0;
+  padding: 0;
+  line-height: 100%;
+  margin-bottom: 8px;
+}
+
+.conteiner-result p {
+  margin: 0;
+  padding: 0;
+}
+
+.conteiner-result img {
+  align-self: flex-start;
+  margin-top: 5px;
+}
+
+.text-result {
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  border: 1px solid #1C1C1E;
+  margin: 40px 20px;
+  width: 50%;
+  align-self: center;
+}

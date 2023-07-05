@@ -43,9 +43,9 @@ h3 {
 }
 
 .colorbg {
-    width: 160px;
-    height: 160px;
-    border-radius: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
     border: 1px solid #E9E9E9;
     background: #161616;
     float: left;
@@ -53,83 +53,61 @@ h3 {
 }
 
 .colorlight {
-    width: 160px;
-    height: 160px;
-    border-radius: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
     background: #FFF;
     float: left;
     margin: 8px 8px;
     }
 .color-primary {
-    width: 160px;
-    height: 160px;
-    border-radius: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
     background: #E7FE55;
     float: left;
     margin: 8px 8px;
     }
 .colorbglight {
-    width: 160px;
-    height: 160px;
-    border-radius: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
     background: #E9E9E9;
     float: left;
     margin: 8px 8px;
     }
 .colorbgwhite {
-    width: 160px;
-    height: 160px;
-    border-radius: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
     background: #F3F2F4;
     float: left;
     margin: 8px 8px;
     }
 .colorbgconteiner {
-    width: 160px;
-    height: 160px;
-    border-radius: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
     background: #818181;
     float: left;
     margin: 8px 8px;
     }
 .colorbgelement{
-    width: 160px;
-    height: 160px;
-    border-radius: 20px;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
     background: #4A4848;
     float: left;
     margin: 8px 8px;
     }
 .buttonset {
-    display: flex;
+    display: inline-block;
 }
 
 .nav-tabs {
-    width: 360px;
-    height: 74px;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    border-radius: 40px;
-    border: 1px solid #000;
-    background: #4A4848;
+
 }
-.nav-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 47px;
-    flex: 1 0 0;
-    float: left;
-    padding: 0 16px;
-}
-.nav-item:hover {
-    border-radius: 40px;
-    background: #1F1D1D;
-    width: 66px;
-    height: 48px;
-    flex-shrink: 0;
-}
+
 button {
     border: none;
     margin: 20px;
@@ -190,7 +168,6 @@ nav {
     background-color: #4A4848;
     padding: 10px;
     border-radius: 40px;
-    transform: scale(1.8);
     overflow: hidden;
   }
   
@@ -251,7 +228,7 @@ nav {
   
   #ytd-url {
     display: block;
-    position: fixed;
+
     right: 0;
     bottom: 0;
     padding: 10px 14px;

@@ -129,6 +129,10 @@ button {
     border: 1px solid #E7FE55;
     color: #F3F2F4;
 }
+.button-scan {
+    margin: 16px 16px 16px 0;
+    padding: 16px 16px 16px 0;
+}
 .filter-option {}
 .filter-grid {}
 .link-nav {}
